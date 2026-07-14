@@ -1,6 +1,4 @@
-/* Responsive styles — reorganized and optimized */
-
-/* <= 1024px */
+/* Responsive - staff*/
 @media screen and (max-width: 1024px) {
     #container,
     #pjax-container {
@@ -83,7 +81,7 @@
     }
 }
 
-/* <= 768px (tablet and small laptops) */
+/* <= 768px */
 @media screen and (max-width: 768px) {
         input,
     select,
@@ -546,7 +544,7 @@
     }
 }
 
-/* <= 500px (phones) */
+/* <= 500px */
 @media (max-width: 500px) {
     #ticketInfo > tbody > tr:nth-child(2) {
         display: block !important;

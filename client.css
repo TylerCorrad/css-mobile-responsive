@@ -1,3 +1,4 @@
+/* <= 768px */
 @media screen and (max-width: 768px) {
         input,
     select,
@@ -226,7 +227,7 @@
         max-width: 100cqw !important;
     }
 }
-
+/* <= 500px */
 @media (max-width: 500px) {
         #ticketInfo > tbody > tr:nth-child(2) {
         display: block !important;
@@ -278,7 +279,7 @@
     }
 
 }
-
+/* <= 352px */
 @media (max-width: 352px){
 
     #ticketForm > table > tbody:first-child tr {
