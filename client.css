@@ -33,6 +33,13 @@
     table tr td[width="50%"] {
         width: 100% !important;
         display: block !important;}
+    
+    p, .redactor-in, 
+    .redactor-styles,
+    .thread-body {
+        max-width: 100%;
+    }
+
 
     
 .dialog table,
