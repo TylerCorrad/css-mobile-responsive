@@ -152,7 +152,7 @@
         width: 100% !important;
         display: block !important;}
 
-    
+
     .dialog table,
     .dialog tbody,
     .dialog thead,
@@ -308,10 +308,13 @@
     }
     .sticky.bar .pull-left,
     .sticky.bar .pull-right {
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: left;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: fit-content;
+        font-size: 12px;
+        float: none !important;
     }
 
     .pull-right.flush-right {
@@ -319,6 +322,8 @@
     }
 
     .settings_table {
+        display: block;
+        overflow-x: scroll;
         width: 100% !important;
         max-width: 100% !important;
         table-layout: auto;
@@ -342,7 +347,7 @@
     .settings_table input,
     .settings_table select,
     .settings_table .select2-container {
-        max-width: 100% !important;
+        max-width: fit-content !important;
         width: 100% !important;
         box-sizing: border-box;
     }
