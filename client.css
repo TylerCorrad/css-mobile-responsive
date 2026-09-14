@@ -1,3 +1,42 @@
+h1, .featured-category i, a, .link, .Icon{
+color: #df640a;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(180deg, #ff620063, transparent);
+    background-repeat: no-repeat;
+}
+.blue.button, .blue.button:visited{
+background-color: #df640a;
+}
+.button, .button:visited, .green.button, .green.button:visited{
+background-color: #5d5d5d;
+}
+i.refresh {
+color: #5d5d5d;
+}
+
+select{
+    border: solid 2px #ffb995;
+    border-radius: 0.5vh;
+    color: #737373;
+}
+
+input, .redactor-styles{
+border: solid 1px #7b7b7b;
+}
+
+input{
+border-radius:0.5vh;
+}
+#nav li a.active{
+background-color: #f7f7f7;
+}
+
+/* Responsive - client*/
+.search.well .pull-right {
+    margin-top: 25px;
+}
 /* <= 768px */
 @media screen and (max-width: 768px) {
         input,
